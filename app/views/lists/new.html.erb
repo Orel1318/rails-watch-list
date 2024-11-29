@@ -1,0 +1,12 @@
+<!--<form action="/lists" method="post">
+  <label for="">Name</label>
+  <input type="text">
+  <input type="submit">
+</form> -->
+<div class="container w-25 border mt-3 shadow p-3">
+<%= simple_form_for @list do |f|%>
+<%= f.input :name %>
+<%= f.submit %>
+<%end%>
+</div>
+
